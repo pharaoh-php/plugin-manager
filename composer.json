@@ -1,0 +1,30 @@
+{
+    "name": "pharaoh/plugin-manager",
+    "description": "Pharaoh Plugin Manager component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Buzonas",
+            "email": "steve@fancyguy.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pharaoh\\Component\\PluginManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pharaoh\\Component\\PluginManager\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
