@@ -9,6 +9,10 @@
             "email": "steve@fancyguy.com"
         }
     ],
+    "minimum-stability": "dev",
+    "provide": {
+        "pharaoh/plugin-api": "1.0.0"
+    },
     "autoload": {
         "psr-4": {
             "Pharaoh\\Component\\PluginManager\\": "src/"
@@ -21,6 +25,9 @@
     },
     "require": {
         "php": ">=7.0"
+    },
+    "require-dev": {
+        "pharaoh/core": "^1.0@dev"
     },
     "extra": {
         "branch-alias": {
